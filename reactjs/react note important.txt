@@ -1,0 +1,8 @@
+1 babel 
+babel support modran javascript
+when code in modran javascript then automatic convert in broswer support javascript for run .
+babel use for run modran javascript   
+
+2 webpack
+
+3.jsx
