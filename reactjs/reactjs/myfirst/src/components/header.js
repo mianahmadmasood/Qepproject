@@ -1,8 +1,14 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from './sidemenu';
+import Services from './pages/service';
+import Contact from './pages/contectus';
+import About from './pages/about';
+
 
 function header() {
   return (
-    
+    <Router>
       <header className="App-header">
         <div className="info">
           <div className="container">
@@ -31,24 +37,28 @@ function header() {
                 <div className="row">
                     <div className="col-md-12">
                         <div id="logo">
-                            <a href="https://api.whatsapp.com/send?phone=+923000321737">
+                            <Link to={'/'} className="nav-link">  
                                 <img className="logo" style={{width: "200px"}}  src="assets/images/logo_qep.png" alt="" />
                                 <img className="logo-2" src="assets/images/logo_qep.png" alt="" />
-                            </a>
+                            </Link>
                         </div>
                         <span id="menu-btn"></span>
+                       
                         <nav>
                             <ul id="mainmenu">
-                                <li><a href="https://api.whatsapp.com/send?phone=+923000321737">Home</a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=+923000321737">Services</a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=+923000321737">About Us</a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=+923000321737">Contact</a></li>
+                                <li><Link to={'/'} className="nav-link"> Home </Link></li>
+                                <li><Link to={'/services'} className="nav-link"> Services </Link></li>
+                                <li><Link to={'/about'} className="nav-link"> About Us </Link></li>
+                                <li><Link to={'/contact'} className="nav-link"> Contact </Link></li>
                             </ul>
                         </nav>
+                       
+                       
                 </div>
             </div>
         </div>
       </header>
+      </Router>
   );
 }
 

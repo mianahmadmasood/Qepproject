@@ -1,9 +1,12 @@
 import React from 'react';
+import Slider from './slider';
 
 function sidemenu() {
   return (
     <div className="App">
       
+
+            <Slider />
 
             <section id="section-about">
                 <div className="container">
