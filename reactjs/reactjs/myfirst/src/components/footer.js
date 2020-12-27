@@ -8,7 +8,7 @@ function footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <img style={{maxHeight: "210px"}} src="public/assets/images/logo_qepf.png" className="logo-small" alt="" /><br />
+                        <img style={{maxHeight: "160px"}} src="assets/images/logo_qepf.png" className="logo-small" alt="" /><br />
                     </div>
                     <div className="col-md-4">
                     </div>
@@ -16,7 +16,7 @@ function footer() {
                         <h3>Contact Us</h3>
                         <div className="widget widget-address">
                             <address>
-                                <span>Office# 33 2nd Floor Taj Arcade 37-Jail Road Lahore, Pakistan</span>
+                                <span>Office# 33 2nd Floor Taj Arcade 73-Jail Road Lahore, Pakistan</span>
                                 <span><strong>Phone:</strong>(92) 3000 321 737</span>
                                 <span><strong>Email:</strong><a href="mailto:info@qep.com.pk">info@qep.com.pk</a></span>
                                 <span><strong>Web:</strong><a href="https://qep.com.pk/">https://qep.com.pk/</a></span>
@@ -30,7 +30,7 @@ function footer() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            &copy; Copyright 2020 - Quantum Engineering Pakistan                  
+                            &copy; Copyright 2020 - Quantum Engineering Paradigm                  
                         </div>
                         
                     </div>

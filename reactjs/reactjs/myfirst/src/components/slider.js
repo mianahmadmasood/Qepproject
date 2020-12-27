@@ -91,7 +91,7 @@ function slider() {
                     <span className="id-color slidertextfont" style={{fontSize: '14px',fontWeight: '800' }} >Our Expertise For</span>
                 </div>
 
-                <div className=" tp-caption ultra-big-white customin customout start slidertextfontinner"
+                <div className=" tp-caption ultra-big-white customin customout start "
                     data-x="['center']" data-hoffset="['0']"
                     data-y="['middle']" data-voffset="['0']"
                     data-width="none"

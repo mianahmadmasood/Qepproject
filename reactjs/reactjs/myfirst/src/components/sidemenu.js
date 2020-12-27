@@ -16,11 +16,11 @@ function sidemenu() {
 
                             <figure className="pic-hover hover-scale mb20">
                             <span className="center-xy">
-                                    <a className="image-popup" href="{{asset('public/assets/imageqep/planing.jpg')}}">
+                                    <a className="image-popup" href="assets/imageqep/planing.jpg">
                                         <i className="fa fa-image btn-action btn-action-hide"></i></a>
                                 </span>
                                 <span className="bg-overlay"></span>
-                                <img src="{{asset('public/assets/imageqep/planing.jpg')}}" className="img-responsive" alt="" />
+                                <img src="assets/imageqep/planing.jpg" className="img-responsive" alt="" />
                             </figure>
 
                             <h3>Planning</h3>
@@ -32,11 +32,11 @@ function sidemenu() {
                         <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                             <figure className="pic-hover hover-scale mb20">
                                 <span className="center-xy">
-                                    <a className="image-popup" href="{{asset('public/assets/imageqep/engineering.jpg')}}">
+                                    <a className="image-popup" href="assets/imageqep/engineering.jpg">
                                         <i className="fa fa-image btn-action btn-action-hide"></i></a>
                                 </span>
                                 <span className="bg-overlay"></span>
-                                <img src="{{asset('public/assets/imageqep/engineering.jpg')}}" className="img-responsive" alt="" />
+                                <img src="assets/imageqep/engineering.jpg" className="img-responsive" alt="" />
                             </figure>
                             
                             <h3>Engineering</h3>
@@ -48,11 +48,11 @@ function sidemenu() {
                         <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
                             <figure className="pic-hover hover-scale mb20">
                                 <span className="center-xy">
-                                    <a className="image-popup" href="public/assets/imageqep/services.png">
+                                    <a className="image-popup" href="assets/imageqep/services.png">
                                         <i className="fa fa-image btn-action btn-action-hide"></i></a>
                                 </span>
                                 <span className="bg-overlay"></span>
-                                <img src="public/assets/imageqep/services.png" className="img-responsive" alt="" />
+                                <img src="assets/imageqep/services.png" className="img-responsive" alt="" />
                             </figure>
                             <h3>Services</h3>
                             <p>
@@ -179,5 +179,6 @@ function sidemenu() {
     </div>
   );
 }
+
 
 export default sidemenu;

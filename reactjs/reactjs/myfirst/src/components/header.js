@@ -1,14 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from './sidemenu';
-import Services from './pages/service';
-import Contact from './pages/contectus';
-import About from './pages/about';
+import { Link } from 'react-router-dom';
 
 
 function header() {
   return (
-    <Router>
+   
       <header className="App-header">
         <div className="info">
           <div className="container">
@@ -37,19 +33,21 @@ function header() {
                 <div className="row">
                     <div className="col-md-12">
                         <div id="logo">
-                            <Link to={'/'} className="nav-link">  
+                            <a href='/' className="nav-link">  
                                 <img className="logo" style={{width: "200px"}}  src="assets/images/logo_qep.png" alt="" />
                                 <img className="logo-2" src="assets/images/logo_qep.png" alt="" />
-                            </Link>
+                            </a>
                         </div>
                         <span id="menu-btn"></span>
                        
                         <nav>
                             <ul id="mainmenu">
-                                <li><Link to={'/'} className="nav-link"> Home </Link></li>
-                                <li><Link to={'/services'} className="nav-link"> Services </Link></li>
-                                <li><Link to={'/about'} className="nav-link"> About Us </Link></li>
-                                <li><Link to={'/contact'} className="nav-link"> Contact </Link></li>
+                                <li><a href='/' className="nav-link"> Home </a></li>
+                                {/* <li><Link to='/' className="nav-link"> Home </Link></li> */}
+                                
+                                <li><Link to='/services' className="nav-link"> Services </Link></li>
+                                <li><Link to='/about' className="nav-link"> About Us </Link></li>
+                                <li><Link to='/contact' className="nav-link"> Contact </Link></li>
                             </ul>
                         </nav>
                        
@@ -58,7 +56,7 @@ function header() {
             </div>
         </div>
       </header>
-      </Router>
+     
   );
 }
 

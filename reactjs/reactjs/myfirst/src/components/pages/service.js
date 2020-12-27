@@ -7,14 +7,14 @@ function Service() {
     <Router>
     <div className="App">
       <section id="subheader" data-stellar-background-ratio=".3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
                         <h1>Services</h1>
-                        <div class="small-border-deco"><span></span></div>
-                        <ul class="crumb">
+                        <div className="small-border-deco"><span></span></div>
+                        <ul className="crumb">
                             <li><Link to={'/'} className="nav-link"> Home </Link></li>
-                            <li class="sep"></li>
+                            <li className="sep"></li>
                             <li>Services</li>
                         </ul>
                     </div>
@@ -23,19 +23,14 @@ function Service() {
         </section>
 
        
-        <div id="content" class="no-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 mb30">
-                        <figure class="pic-hover hover-scale mb20">
-                            <span class="center-xy">
-                                <a href="">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i>
-
-                                    </a>
-                            </span>
-                            <span class="bg-overlay"></span>
-                            <img src="public/assets/images/services/pic_1.jpg" class="img-responsive" alt="" />
+        <div id="content" className="no-bottom">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4 col-sm-6 mb30">
+                        <figure className="pic-hover hover-scale mb20">
+                            
+                            <span className="bg-overlay"></span>
+                            <img src="assets/images/services/pic_1.jpg" className="img-responsive" alt="" />
                         </figure>
 
                         <h3>General Constructing</h3>
@@ -43,16 +38,11 @@ function Service() {
 						
                     </div>
 
-                    <div class="col-md-4 col-sm-6 mb30">
-                        <figure class="pic-hover hover-scale mb20">
-                            <span class="center-xy">
-                                <a href="">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i>
-                                    
-                                    </a>
-                            </span>
-                            <span class="bg-overlay"></span>
-                            <img src="public/assets/images/services/pic_2.jpg" class="img-responsive" alt="" />
+                    <div className="col-md-4 col-sm-6 mb30">
+                        <figure className="pic-hover hover-scale mb20">
+                            
+                            <span className="bg-overlay"></span>
+                            <img src="assets/images/services/pic_2.jpg" className="img-responsive" alt="" />
                         </figure>
 
                         <h3>Construction Management</h3>
@@ -60,15 +50,11 @@ function Service() {
 						
                     </div>
 
-                    <div class="col-md-4 col-sm-6 mb30">
-                        <figure class="pic-hover hover-scale mb20">
-                            <span class="center-xy">
-                                <a href="">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i>
-                                    </a>
-                            </span>
-                            <span class="bg-overlay"></span>
-                            <img src="public/assets/images/services/pic_3.jpg " class="img-responsive" alt="" />
+                    <div className="col-md-4 col-sm-6 mb30">
+                        <figure className="pic-hover hover-scale mb20">
+                            
+                            <span className="bg-overlay"></span>
+                            <img src="assets/images/services/pic_3.jpg " className="img-responsive" alt="" />
                         </figure>
 
                         <h3>Design and Build</h3>
@@ -76,17 +62,13 @@ function Service() {
 						
                     </div>
 
-                    <div class="clearfix"></div>
+                    <div className="clearfix"></div>
 
-                    <div class="col-md-4 col-sm-6 mb30">
-                        <figure class="pic-hover hover-scale mb20">
-                            <span class="center-xy">
-                                <a href="">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i>
-                                    </a>
-                            </span>
-                            <span class="bg-overlay"></span>
-                            <img src="public/assets/images/services/pic_4.jpg" class="img-responsive" alt="" />
+                    <div className="col-md-4 col-sm-6 mb30">
+                        <figure className="pic-hover hover-scale mb20">
+                            
+                            <span className="bg-overlay"></span>
+                            <img src="assets/images/services/pic_4.jpg" className="img-responsive" alt="" />
                         </figure>
 
                         <h3>Preconstruction Consulting</h3>
@@ -94,14 +76,11 @@ function Service() {
 						
                     </div>
 
-                    <div class="col-md-4 col-sm-6 mb30">
-                        <figure class="pic-hover hover-scale mb20">
-                            <span class="center-xy">
-                                <a href="">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
-                            </span>
-                            <span class="bg-overlay"></span>
-                            <img src="public/assets/images/services/pic_5.jpg" class="img-responsive" alt="" />
+                    <div className="col-md-4 col-sm-6 mb30">
+                        <figure className="pic-hover hover-scale mb20">
+                            
+                            <span className="bg-overlay"></span>
+                            <img src="assets/images/services/pic_5.jpg" className="img-responsive" alt="" />
                         </figure>
 
                         <h3>Special Projects</h3>
@@ -109,14 +88,11 @@ function Service() {
 					
                     </div>
 
-                    <div class="col-md-4 col-sm-6 mb30">
-                        <figure class="pic-hover hover-scale mb20">
-                            <span class="center-xy">
-                                <a href="">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
-                            </span>
-                            <span class="bg-overlay"></span>
-                            <img src="public/assets/images/services/pic_6.jpg" class="img-responsive" alt="" />
+                    <div className="col-md-4 col-sm-6 mb30">
+                        <figure className="pic-hover hover-scale mb20">
+                           
+                            <span className="bg-overlay"></span>
+                            <img src="assets/images/services/pic_6.jpg" className="img-responsive" alt="" />
                         </figure>
 
                         <h3>Renovations</h3>
